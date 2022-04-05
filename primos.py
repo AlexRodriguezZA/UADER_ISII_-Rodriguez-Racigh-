@@ -1,9 +1,9 @@
 # prime number calculator: find all primes up to n
 
-print("------------Prime number calculator------------")
+print("------------Calculadora de números primos------------")
 # int(input("Find primes up to what number? : "))
 max = 5
-print("------------Prime numbers up to 5------------")
+print("------------Números primos hasta el 5------------")
 primeList = []
 #for loop for checking each number
 for x in range(2, max + 1):
@@ -21,7 +21,7 @@ print(primeList)
 #-------------------------------------------------------------
 # prime number calculator: find the first n primes
 # int(input("Find how many primes?: "))
-print("------------5 prime numbers------------")
+print("------------5 números primos------------")
 
 count = 5
 primeList = []
