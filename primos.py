@@ -1,5 +1,7 @@
+from datetime import date
+from datetime import datetime
 # prime number calculator: find all primes up to n
-
+fechaActual = datetime.now()
 print("------------Calcolatrice dei numeri primi------------")
 # int(input("Find primes up to what number? : "))
 max = 5
@@ -39,3 +41,5 @@ while len(primeList) < count:
 		primeList.append(x)
 	x += 1
 print(primeList)
+print("Fecha y hora Actual")
+print(fechaActual)
